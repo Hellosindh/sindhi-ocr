@@ -1,0 +1,13 @@
+# weights are release files, not part of git (python download_weights.py)
+*.pt
+*.onnx
+# your data, fonts and outputs stay local
+assets/
+Fonts/
+Fonts_extra/
+export/
+sindhi_corpus.txt
+*_log.txt
+__pycache__/
+*.pyc
+font_glyph_map.json

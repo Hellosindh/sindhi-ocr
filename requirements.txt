@@ -1,0 +1,16 @@
+# Reading pages (ocr_page.py, evaluate.py)
+torch>=2.1
+numpy>=1.24
+opencv-python>=4.8
+Pillow>=10.0
+scipy>=1.10
+
+# Making synthetic training data (make_synth.py, model/generate_*.py, linedet/synth_pages.py, layout/synth_*.py)
+freetype-py>=2.4
+uharfbuzz>=0.39
+python-bidi>=0.6
+fonttools>=4.40
+
+# Exporting to ONNX (model/export_android.py), optional
+# onnx
+# onnxruntime
